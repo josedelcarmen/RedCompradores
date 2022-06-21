@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jboss-deployment-structure>
+    <deployment>
+        <exclude-subsystems>
+            <subsystem name="jsf" />
+        </exclude-subsystems>
+        <exclusions>
+            <module name="javax.validation.api" />
+            <module name="javax.faces.api" />
+            <module name="org.hibernate.validator" />
+            <module name="com.fasterxml.jackson.core.jackson-annotations" />
+            <module name="com.fasterxml.jackson.core.jackson-core" />
+            <module name="com.fasterxml.jackson.core.jackson-databind" />
+            <module name="com.fasterxml.jackson.datatype.jackson-datatype-jdk8"/>
+            <module name="com.fasterxml.jackson.datatype.jackson-datatype-jsr310"/>
+            <module name="com.fasterxml.jackson.jaxrs.jackson-jaxrs-json-provider" />
+            <module name="org.jboss.resteasy.resteasy-jackson2-provider" />
+            <module name="org.slf4j" />
+        </exclusions>
+    </deployment>
+</jboss-deployment-structure>
